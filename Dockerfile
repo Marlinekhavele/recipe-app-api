@@ -12,17 +12,12 @@ RUN apk add --update --no-cache --virtual .tmp-build-deps \
 RUN apk update && \
     apk add --virtual build-deps gcc python-dev musl-dev && \
     apk add postgresql-dev
-
-
-
-
-RUN pip install -r /requirements.txt
-RUN pip install pillow
 RUN mkdir /app
 RUN apk del .tmp-build-deps
-RUN pip install psycopg2
+RUN apk add --no-cache jpeg-dev zlib-dev
+RUN apk add --no-cache --virtual .build-deps build-base
 
-
+RUN pip install -r /requirements.txt
 
 
 WORKDIR /app

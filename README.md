@@ -8,6 +8,9 @@ How to build a fully functioning REST API using:
    
    ### Getting started
    
+   #### Build containers
+   docker-compose build
+   
    To start project, run:
    
    docker-compose up
