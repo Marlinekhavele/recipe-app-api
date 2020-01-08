@@ -1,9 +1,9 @@
 # Recipe App API
 How to build a fully functioning REST API using:
-   ###### Python
-   ###### Django / Django-REST-Framework
-   ###### Docker / Docker-Compose
-   ###### Test Driven Development
+   - Python
+   - Django / Django-REST-Framework
+   - Docker / Docker-Compose
+   - Test Driven Development
    
    
    ### Getting started
