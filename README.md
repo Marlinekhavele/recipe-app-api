@@ -16,3 +16,6 @@ How to build a fully functioning REST API using:
    docker-compose up
    
    The API will then be available at http://127.0.0.1:8000
+
+    ![alt text](api.png "api")
+
