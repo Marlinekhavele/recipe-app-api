@@ -5,7 +5,7 @@ How to build a fully functioning REST API using:
    - Docker / Docker-Compose
    - Test Driven Development
 ### Getting started 
-- A rest api in Django and DRF For a Recipe
+- A rest api in Django and DRF For a Recipe Application
 - Clone the project using git clone
 - Enter the project directory cd app
 - Visit http://localhost:8000/api/v1/docs to get started with the browsable api
