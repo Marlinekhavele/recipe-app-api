@@ -11,7 +11,9 @@ How to build a fully functioning REST API using:
 - Visit http://localhost:8000/api/v1/docs to get started with the browsable api
 #### Build containers
 - docker-compose build
+
 #### To start project, run:
--  docker-compose up
+- docker-compose up
+
 ![alt text](api.png "api")
 
