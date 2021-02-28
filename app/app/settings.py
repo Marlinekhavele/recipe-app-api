@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'rest_framework.authtoken',
     'rest_framework_swagger',
+    'rest_framework.authtoken',
     'core',
     'user',
     'recipe',
@@ -137,3 +137,8 @@ MEDIA_ROOT = '/vol/web/media'
 STATIC_ROOT = '/vo/web/static'
 
 AUTH_USER_MODEL = 'core.user'
+
+REST_FRAMEWORK = {
+  
+  'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'
+}
